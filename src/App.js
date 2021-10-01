@@ -22,7 +22,7 @@ const App = () => {
               <Route exact path='/' component={HomePage} />
               <Route exact path='/exchanges' component={Exchanges} />
               <Route exact path='/cryptocurrencies' component={Cryptocurrencies} />
-              <Route exact path='/crypto/:coinid' component={CryptoDetails} />
+              <Route exact path='/crypto/:coinId' component={CryptoDetails} />
               <Route exact path='/news' component={News} />
             </Switch>
           </div>
