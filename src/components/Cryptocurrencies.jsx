@@ -28,7 +28,7 @@ const Cryptocurrencies = ({simplified}) => {
               title={`${curr.rank}. ${curr.name}`} 
               extra={<img className="crypto-image" src={curr.iconUrl} />} 
               hoverable>
-                <p>Price: {millify(curr.price)}</p>
+                <p>Price: {millify(curr.price)}$</p>
                 <p>Market Cap: {millify(curr.marketCap)}</p>
                 <p>Daily Change: {millify(curr.change)}</p>
               </Card>
